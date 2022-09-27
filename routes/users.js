@@ -7,11 +7,6 @@ var Users = require("../models/users");
 var jwt = require('jsonwebtoken');
 var cekToken = require("../middleware");
 
-// /* GET users listing. */
-// router.get('/', function(req, res, next) {
-//   res.send('respond with a resource');
-// });
-
 
 /* TAMPIL DATA USERS */
 router.get('/', cekToken, function(req, res, next) {
